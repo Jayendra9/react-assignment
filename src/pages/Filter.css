@@ -1,0 +1,37 @@
+/* Filter.css */
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    max-height: 50px;
+    margin: 10px; /* Add margin for spacing */
+    border: 1px solid #bab9b94d;
+    background-color: #989696;
+    border-radius: 10px;
+}
+
+.single-filter {
+    display: flex;
+    align-items: center;
+}
+
+span.filter-items {
+    font-size: 14px; /* Increase font size for better visibility */
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    border-radius: 30px;
+    border: 1px solid #0000005c;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+span.filter-items.active {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+}
+
+/* Add some space between filter bar and video */
+.ratio {
+    margin-top: 20px;
+}
