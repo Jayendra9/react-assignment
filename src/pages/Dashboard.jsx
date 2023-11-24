@@ -5,7 +5,9 @@ import { Container } from 'react-bootstrap'
 const Dashboard = () => {
   return <div className="title"> 
     <Container>
-      <h1 >Basic Mathematics 101</h1>
+      <div className='nav1'>
+        <h1 >Basic Mathematics 101</h1>
+      </div>  
       <div className="filter d-flex align-items-center">
         <div className="single-filter">
           <span className="filter-items pointer active">Classroom</span>

@@ -4,9 +4,9 @@
     display: flex;
     justify-content: space-between;
     max-height: 50px;
-    margin: 10px; /* Add margin for spacing */
-    border: 1px solid #bab9b94d;
-    background-color: #989696;
+    margin: 10px;
+    border: 1px solid #4542424d;
+    background-color: #a19b9b;
     border-radius: 10px;
 }
 
@@ -21,7 +21,7 @@ span.filter-items {
     border-radius: 30px;
     border: 1px solid #0000005c;
     margin: 0 10px;
-    color: #fff;
+    color: #fff5f5;
     cursor: pointer; /* Add cursor pointer for better UX */
 }
 
